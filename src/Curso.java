@@ -42,4 +42,14 @@ public class Curso {
     public void setAlumnos(int alumnos) {
         this.alumnos = alumnos;
     }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "titulo='" + titulo + '\'' +
+                ", duracion=" + duracion +
+                ", videos=" + videos +
+                ", alumnos=" + alumnos +
+                '}';
+    }
 }
